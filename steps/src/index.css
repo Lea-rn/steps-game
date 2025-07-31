@@ -1,0 +1,51 @@
+.steps {
+    width: 30%;
+    height: 220px;
+    margin: 200px auto;
+    background-color: rgb(222, 208, 182);
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.numbers {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px ;
+}
+
+.numbers div {
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    
+}
+
+
+.message {
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 900;
+}
+
+.buttons {
+   
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 3px;
+}
+
+.buttons button {
+    cursor: pointer;
+    border: transparent;
+    border-radius: 8px;
+    padding: 8px 15px;
+    
+}
+
+.active {
+    background-color: #7950f2;
+    color: white;
+    border: transparent;
+}
