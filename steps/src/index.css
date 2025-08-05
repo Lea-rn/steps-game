@@ -49,3 +49,10 @@
     color: white;
     border: transparent;
 }
+
+.close-btn {
+    position: relative;
+ left: 1100px;
+ top: 100px;
+ cursor: pointer;
+}
